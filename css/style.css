@@ -1,0 +1,20 @@
+.row div{
+    height: 200px;
+    background: #333;
+}
+/*
+.nav-pills > li.active > a,
+.nav-pills > li.active > a:hover,
+.nav-pills > li.active > a:focus {
+    color: #fff;
+    background-color: #4bb724;
+}*/
+/*
+p{
+    margin: 10px 10px 10px ;
+}*/
+.nav-tabs > li.active > a,
+.nav-tabs > li.active > a:hover,
+.nav-tabs > li.active > a:focus{
+    background-color: #44ff3b;
+}
