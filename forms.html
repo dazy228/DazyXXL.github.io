@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Forms</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!--<script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery-3.3.1.js"></script>-->
+</head>
+<body>
+    <form>
+        <fieldset>
+            <legend class="text-center">Вход на сайт</legend>
+            <p><label for="inputLogin">Логин</label></p>
+            <p><input id="inputLogin" placeholder="Введите логин"></p>
+            <p><label for="inputPassword">Пароль</label></p>
+            <p><input type="password" id="inputPassword"
+                      placeholder="Введите пароль"></p>
+            <p><label><input type="checkbox">Запомнить меня</label></p>
+            <p><button type="submit">Войти</button></p>
+        </fieldset>
+    </form>
+    <!--Применение классов-->
+    <form>
+        <fieldset>
+            <legend class="text-center">Вход на сайт</legend>
+            <div class="form-group">
+                <label for="input__login">Логин</label>
+                <input id="input_login" placeholder="Введите логин"
+                       class="form-control">
+            </div>
+            <div class="form-group">
+                <label for="input__password">Пароль</label>
+                <input type="password" id="input_password"
+                       placeholder="Введите пароль" class="form-control">
+            </div>
+            <div class="checkbox">
+                <label><input type="checkbox"> Запомнить меня</label>
+            </div>
+            <button type="submit" class="btn btn-default">Войти</button>
+        </fieldset>
+    </form>
+    <!-- ----------------------- -->
+    <form class="form-inline">
+        <div class="form-group">
+            <label for="input__login">Логин</label>
+            <input id="input__login"
+                   placeholder="Введите логин" class="form-control">
+        </div>
+        <div class="form-group">
+            <label for="input__password">Пароль</label>
+            <input type="password" id="input__password"
+                   placeholder="Введите пароль" class="form-control">
+        </div>
+        <div class="checkbox">
+            <label><input type="checkbox"> Запомнить меня</label>
+        </div>
+        <button type="submit" class="btn btn-default">Войти</button>
+    </form>
+    <!-- ----------------------- -->
+    <form class="form-horizontal">
+        <div class="form-group">
+            <label for="inputLogin"
+                   class="col-sm-2 control-label">Логин</label>
+            <div class="col-sm-5">
+                <input id="inpuLogin"
+                       placeholder="Введите логин" class="form-control">
+            </div>
+        </div>
+        <div class="form-group">
+            <label for="inputPassword"
+                   class="col-sm-2 control-label">Пароль</label>
+            <div class="col-sm-5">
+                <input type="password"
+                       id="inpuPassword"
+                       placeholder="Введите пароль"
+                       class="form-control">
+            </div>
+        </div>
+        <div class="form-group">
+            <div class="col-sm-10 col-sm-offset-2 checkbox">
+                <label><input type="checkbox"> Запомнить меня</label>
+            </div>
+        </div>
+        <div class="form-group">
+            <div class="col-sm-10 col-sm-offset-2">
+                <button type="submit" class="btn btn-default">Войти
+                </button>
+            </div>
+        </div>
+    </form>
+    <!-- ----------------------- -->
+</body>
+</html>
